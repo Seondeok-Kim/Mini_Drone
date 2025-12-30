@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 6. 펌웨어 업데이트 진행
 
 
-# Raspberry Pi Zero W 스펙
+# Raspberry Pi Zero W
 <!--
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
 -->
