@@ -3,7 +3,7 @@
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
 # 드론
 <img width="700" height="500" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
-모델명: 코드론 DIY
+- 모델명: 코드론 DIY
 
 # 부속품
 ![2](https://user-images.githubusercontent.com/76850241/194635996-befd44cd-61ba-45d0-82b2-569eb74162ae.PNG)
