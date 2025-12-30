@@ -1,15 +1,24 @@
 # Mini Drone
 
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
+# 드론
+<img width="1154" height="684" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
+모델명: 코드론 DIY
 
-# 기본 부품
-
+# 부속품
 ![2](https://user-images.githubusercontent.com/76850241/194635996-befd44cd-61ba-45d0-82b2-569eb74162ae.PNG)
 
 
-# 드론 펌웨어 업데이트 환경세팅 과정
-
+# 드론 펌웨어 업데이트 
+<!--
 ![1](https://user-images.githubusercontent.com/76850241/194636011-ac5da568-4fd7-42c5-aa80-25c7db9b6957.PNG)
+-->
+1. 로보링크 홈페이지 접속
+2. 홈페이지 상단 오른쪽 'Download'-> 한글
+3. 허밍버드 선택 -> '펌웨어 Download'
+4. 다운받은 파일 압축 해제 -> 'Drone4AutoUpdaterLight' 파일 실행
+5. Drone 버튼 누르면서 컴퓨터와 연결
+6. 펌웨어 업데이트 진행
 
 
 # Raspberry Pi Zero W 스펙
