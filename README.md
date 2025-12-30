@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 ![1](https://user-images.githubusercontent.com/76850241/194636011-ac5da568-4fd7-42c5-aa80-25c7db9b6957.PNG)
 
 
-3.Raspberry Pi Zero 사양
+3.Raspberry Pi Zero W 스펙
 
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
 
