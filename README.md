@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
 # 드론
-<img width="1154" height="684" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
+<img width="700" height="500" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
 모델명: 코드론 DIY
 
 # 부속품
@@ -22,13 +22,21 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 
 
 # Raspberry Pi Zero W 스펙
-
+<!--
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
-
+-->
+1GHz single-core CPU
+512MB RAM
+Mini HDMI port
+Micro USB OTG port
+Micro USB power
+HAT-compatible 4-pin header
+Composite video and reset headers
+CSI camera connector (v1.3 only)
+<!--
 USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연결해야 함. USB포트에 연결하게 되면 라즈베리 파이의 손상 우려가 있음. 
-
 USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 데이터를 주고받을 수 있음
-
+-->
 
 # Raspberry Pi Zero 환경구축
 
