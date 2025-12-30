@@ -122,5 +122,6 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 ![KakaoTalk_20220727_212523070_01](https://user-images.githubusercontent.com/76850241/181916281-1da62a58-b4b0-4410-9022-565e19598268.jpg)
 
-![Uploading 미니드론_자율비행경진대회_대회맵.png…]()
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/d8cf55eb-3e95-44d2-a7c3-c913ce6e0f94" />
+
 
