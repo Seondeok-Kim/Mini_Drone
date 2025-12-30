@@ -42,9 +42,9 @@ USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연
 USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 데이터를 주고받을 수 있음
 -->
 
-# Raspberry Pi Zero 환경구축
+# Raspberry Pi Zero 환경 구축
 
-  4-1.OS설치
+  ## OS설치
   
   ![4](https://user-images.githubusercontent.com/76850241/194636895-9e2759d7-00fb-4a2e-b639-dddbcaba2174.PNG)
   
