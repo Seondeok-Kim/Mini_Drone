@@ -53,20 +53,20 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   ![6](https://user-images.githubusercontent.com/76850241/194637457-791d748b-d678-473c-abe6-9d0b0d0e44fb.PNG)
   -->
   
-  1.SD 카드 포맷
-  2.Raspberri Pi 홈페이지 접속
-  3.'Downloads' -> Raspbian
-  4.'Raspbian OS and recommended software' 다운
-  5.다운받은 압축파일 해제 -> 이미지를 SD 카드에 설치
-  6.SD 카드의 boot -> cmdline.txt 파일 수정 -> 'rootwait'과 'quiet' 사이 'modules-load=dwc2, g_ether' 입력
-  7.'config.txt' 파일 열고 'detoverlay=dwc2' 맨 아래 입력
-  8.SD카드의 boot에 'ssh'파일 생성 (확장자 없음)
-  9.SD카드의 boot에 'wpa_supplicant.conf'파일을 생성
-  10.'PuTTY'설치
-  11.SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
-  12.공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
-  13.PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
-  14.최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
+  1. SD 카드 포맷
+  2. Raspberri Pi 홈페이지 접속
+  3. 'Downloads' -> Raspbian
+  4. 'Raspbian OS and recommended software' 다운
+  5. 다운받은 압축파일 해제 -> 이미지를 SD 카드에 설치
+  6. SD 카드의 boot -> cmdline.txt 파일 수정 -> 'rootwait'과 'quiet' 사이 'modules-load=dwc2, g_ether' 입력
+  7. 'config.txt' 파일 열고 'detoverlay=dwc2' 맨 아래 입력
+  8. SD카드의 boot에 'ssh'파일 생성 (확장자 없음)
+  9. SD카드의 boot에 'wpa_supplicant.conf'파일을 생성
+  10. 'PuTTY'설치
+  11. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
+  12. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
+  13. PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
+  14. 최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
   PuTTY : 윈도우에서 ssh연결을 쉽게 하도록 도와주는 프로그램
   공유기가 연결된 노트북과 라즈베리 파이에 IP주소를 할당하므로, 라즈베리파이와 컴퓨터가 같은 공유기의 인터넷 주소를 가지고 있어야 함
   라즈베리 홈페이지에서 balena etcher를 설치해서 SD 카드에 라즈베리파이 OS 설치
