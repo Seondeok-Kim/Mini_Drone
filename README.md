@@ -1,4 +1,4 @@
-# mini_drone
+# Mini Drone
 
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
 
