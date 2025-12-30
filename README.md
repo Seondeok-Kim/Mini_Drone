@@ -117,11 +117,11 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 # 최종 허밍버드 드론 모습 & 대회 맵
 
- ![KakaoTalk_20220727_212523070](https://user-images.githubusercontent.com/76850241/181916277-6ed485a6-9fb8-4041-a126-9c0b05dbd8cd.jpg)<img width="1394" height="692" alt="미니드론_자율비행경진대회_대회맵" src="https://github.com/user-attachments/assets/50add4b4-e962-4c9d-915c-c13b45fbf1fc" />
-
+ ![KakaoTalk_20220727_212523070](https://user-images.githubusercontent.com/76850241/181916277-6ed485a6-9fb8-4041-a126-9c0b05dbd8cd.jpg)
 
 ![KakaoTalk_20220727_212523070_01](https://user-images.githubusercontent.com/76850241/181916281-1da62a58-b4b0-4410-9022-565e19598268.jpg)
 
-<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/d8cf55eb-3e95-44d2-a7c3-c913ce6e0f94" />
+<img width="1878" height="908" alt="대회맵" src="https://github.com/user-attachments/assets/aad7d638-db43-41b3-bc76-563aab6a57eb" />
+
 
 
