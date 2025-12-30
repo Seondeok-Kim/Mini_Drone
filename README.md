@@ -42,7 +42,7 @@ USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연
 USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 데이터를 주고받을 수 있음
 -->
 
-# Raspberry Pi Zero 환경 구축
+# Raspberry Pi Zero W 환경 구축
 
   ## OS설치
  <!-- 
@@ -115,11 +115,11 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 
 
-# 최종 허밍버드 드론 모습 & 대회 맵
+# 최종 허밍버드 드론 모습 & 재현한 대회 환경
 
- ![KakaoTalk_20220727_212523070](https://user-images.githubusercontent.com/76850241/181916277-6ed485a6-9fb8-4041-a126-9c0b05dbd8cd.jpg)
+![드론](https://github.com/user-attachments/assets/e195de30-be65-4ebc-b42a-0305d8a3fb83)
+![대회맵](https://github.com/user-attachments/assets/49d16c58-026e-4534-a4a3-0dbe3cdd6a5f)
 
-![KakaoTalk_20220727_212523070_01](https://user-images.githubusercontent.com/76850241/181916281-1da62a58-b4b0-4410-9022-565e19598268.jpg)
 
 <img width="1878" height="908" alt="대회맵" src="https://github.com/user-attachments/assets/aad7d638-db43-41b3-bc76-563aab6a57eb" />
 
