@@ -25,16 +25,17 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 <!--
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
 -->
-<img width="1000" height="900" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
+<img width="800" height="700" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
 
-1GHz single-core CPU
-512MB RAM
-Mini HDMI port
-Micro USB OTG port
-Micro USB power
-HAT-compatible 4-pin header
-Composite video and reset headers
-CSI camera connector (v1.3 only)
+- 1GHz single-core CPU
+- 512MB RAM
+- Mini HDMI port
+- Micro USB OTG port
+- Micro USB power
+- HAT-compatible 4-pin header
+- Composite video and reset headers
+- CSI camera connector (v1.3 only)
+
 <!--
 USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연결해야 함. USB포트에 연결하게 되면 라즈베리 파이의 손상 우려가 있음. 
 USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 데이터를 주고받을 수 있음
