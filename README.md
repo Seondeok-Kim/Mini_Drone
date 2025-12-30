@@ -75,24 +75,24 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   -->
 
 
-  ## serial 통신으로 드론을 제어하는 환경 구축축
-  
+  ## serial 통신으로 드론 제어 환경 구축
+   <!--
   PuTTY에 접속해 로그인 성공한 후의 과정
-  <!--
+  
   ![7](https://user-images.githubusercontent.com/76850241/194638347-bd06715b-91f4-4ca7-871b-7a09efb13504.PNG)
   
   ![8](https://user-images.githubusercontent.com/76850241/194638540-3f4dccc5-ba38-441e-b6c5-b55bb45a5559.PNG)
   -->
-  15.다음 명령어 입력해 업데이트 진행
+  15. 다음 명령어 입력해 업데이트 진행
     sudo apt-get update
     sudo apt-get upgrade
     sudo reboot
-  16.다시 Raspberri에 접속해 다음 입력
+  16. 다시 Raspberri에 접속해 다음 입력
     sudo raspi-config
-  17.Interfacing Option을 선택해 P3 VNC를 enable로 바꿈
-  18.컴퓨터에 VNC viewer를 설치해 PuTTY와 같이 접속
-  19.Serial Port Enable, Serial Console을 Disable
-  20.Terminal을 켠 후 config.txt 수정
+  17. Interfacing Option을 선택해 P3 VNC를 enable로 바꿈
+  18. 컴퓨터에 VNC viewer를 설치해 PuTTY와 같이 접속
+  19. Serial Port Enable, Serial Console을 Disable
+  20. Terminal을 켠 후 config.txt 수정
   
   
   VNC viewer(Virtual Network Computing. 인터넷으로 연결된 컴퓨터에 원격으로 접근)프로그램으로 접속해 Raspberry OS를 이용해 serial 통신으로 드론을 제어하기 위한 환경을 만들어줌
