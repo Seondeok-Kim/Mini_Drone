@@ -76,7 +76,7 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   ```
   10. 'PuTTY'설치
   11. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
-  12. 공유기 접속 -> 내부 네트워크에현
+  12. 공유기 접속 -> 내부 네트워크에서 현재 Raspberri Pi의 IP 확인인
 <img width="800" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
 <img width="1600" height="800" alt="대회맵" src="https://github.com/user-attachments/assets/aad7d638-db43-41b3-bc76-563aab6a57eb" />
 
