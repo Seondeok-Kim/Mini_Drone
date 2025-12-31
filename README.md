@@ -74,14 +74,16 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
       key_mgmt=WPA-PSK
   }
   ```
-  11. 'PuTTY'설치
-  12. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
-  13. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
-  14. PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
-  15. 최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
+  10. 'PuTTY'설치
+  11. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
+  12. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
+  13. PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
+  14. 최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
+  <!-- 
   PuTTY : 윈도우에서 ssh연결을 쉽게 하도록 도와주는 프로그램
   공유기가 연결된 노트북과 라즈베리 파이에 IP주소를 할당하므로, 라즈베리파이와 컴퓨터가 같은 공유기의 인터넷 주소를 가지고 있어야 함
   라즈베리 홈페이지에서 balena etcher를 설치해서 SD 카드에 라즈베리파이 OS 설치
+  -->
   <!--
   $ :컴퓨터에 입력하는 명령어
   -->
@@ -96,19 +98,29 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   ![8](https://user-images.githubusercontent.com/76850241/194638540-3f4dccc5-ba38-441e-b6c5-b55bb45a5559.PNG)
   -->
   15. 다음 명령어 입력해 업데이트 진행
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo reboot
+  ```conf    
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ sudo reboot
+ ```
   16. 다시 Raspberri에 접속해 다음 입력
-    sudo raspi-config
+ ```conf
+    $ sudo raspi-config
+ ```
   17. Interfacing Option을 선택해 P3 VNC를 enable로 바꿈
   18. 컴퓨터에 VNC viewer를 설치해 PuTTY와 같이 접속
-  19. Serial Port Enable, Serial Console을 Disable
-  20. Terminal을 켠 후 config.txt 수정
+  19. VNC viewer -> Raspberri 아이콘
+  20. Serial Port Enable, Serial Console을 Disable
+  21. Terminal을 켠 후 config.txt 수정
+  22. 다음 입력
+  ```conf
+  # disable Bluetooth
+  dtoverlay=pic-disable-bt
+  ```
   
-  
+  <!--
   VNC viewer(Virtual Network Computing. 인터넷으로 연결된 컴퓨터에 원격으로 접근)프로그램으로 접속해 Raspberry OS를 이용해 serial 통신으로 드론을 제어하기 위한 환경을 만들어줌
-
+  -->
 
 
 
@@ -118,14 +130,35 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   <!--
   ![10](https://user-images.githubusercontent.com/76850241/194640758-1e3ca7cf-4db3-4db3-9f0c-5c8c7ff125c1.PNG)
    -->
-
+ 23. VNC viewer -> Raspberri 아이콘
+ 24. Camera Enable
+     ```conf
+     Preferences > Raspberri Pi Configuration > interfaces
+     ```
+  25. Terminal을 켠 후 카메라 장착 확인
+  ```conf
+  $ vcgencmd get_camera ---> supported = 1 detected = 1
+  ```
 
 
 # 드론을 제어하기 위한 Python 개발환경 구축과정
-
+<!--
 ![9](https://user-images.githubusercontent.com/76850241/194639393-c9a82a56-03dc-4b9e-bcf4-f066571e723e.PNG)
-
-
+-->
+1. PuTTY / VNC의 Terminal을 이용해 다음 입력
+ ```conf
+  $ sudo apt-get install libatlas-base-dev
+  $ pip3 install e_drone 
+  $ pip3 install --upgrade e_drone
+ ```  
+2. PuTTY / VNC의 Terminal을 이용해 다음 입력
+ ```conf
+  $ echo 'deb [trusted=yes] http://dl.bintray.com/yoursunny/PiZero stretch-backports main' |\
+    sudo tee /etc/apt/sources.list.d/bintray-yoursunny-PiZero.list
+  $ sudo apt update
+  $ sudo apt install python3-opencv
+  $ python3 -c 'import cv2; print(cv2.__version__)' --> 3.2.0
+ ``` 
 
 # 대회 환경
 <img width="800" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
