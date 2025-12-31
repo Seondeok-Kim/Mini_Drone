@@ -64,24 +64,17 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   7. 'config.txt' 파일 열고 'detoverlay=dwc2' 맨 아래 입력
   8. SD카드의 boot에 'ssh'파일 생성 (확장자 없음)
   9. SD카드의 boot에 'wpa_supplicant.conf'파일을 생성
-      -ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-      -update_config=1
-      -network={
-      -ssid="your_wifiname"
-      -psk="wifi_password"
-      -key_mgmt=WPA-PSK 
-      -}
-  cat <<EOF > wpa_supplicant.conf
+  ```conf
   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
   update_config=1
-  country=KR
   
   network={
       ssid="your_wifiname"
       psk="wifi_password"
       key_mgmt=WPA-PSK
   }
-  EOF
+
+
   11. 'PuTTY'설치
   12. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
   13. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
