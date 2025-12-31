@@ -73,8 +73,7 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
       psk="wifi_password"
       key_mgmt=WPA-PSK
   }
-
-
+  ```
   11. 'PuTTY'설치
   12. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
   13. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
