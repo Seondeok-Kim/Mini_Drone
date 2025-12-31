@@ -1,6 +1,7 @@
 # Mini Drone
-
+<!--
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
+-->
 # 드론
 <img width="700" height="500" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
 <img width="600" height="800" alt="드론" src="https://github.com/user-attachments/assets/f3736eaf-a411-43ec-8c2f-78d684dcbcfb" />
@@ -27,7 +28,7 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 <!--
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
 -->
-<img width="800" height="700" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
+<img width="600" height="600" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
 
 - 1GHz single-core CPU
 - 512MB RAM
@@ -63,11 +64,18 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
   7. 'config.txt' 파일 열고 'detoverlay=dwc2' 맨 아래 입력
   8. SD카드의 boot에 'ssh'파일 생성 (확장자 없음)
   9. SD카드의 boot에 'wpa_supplicant.conf'파일을 생성
-  10. 'PuTTY'설치
-  11. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
-  12. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
-  13. PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
-  14. 최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
+      -ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+      -update_config=1
+      -network={
+      -ssid="your_wifiname"
+      -psk="wifi_password"
+      -key_mgmt=WPA-PSK 
+      -}
+  11. 'PuTTY'설치
+  12. SD카드를 Raspberri Pi에 삽입하고 5pin 전원 연결
+  13. 공유기 접속 -> 내부 네트워크에서 Raspberri Pi의 IP 확인
+  14. PuTTY를 켠 후 Raspberri Pi의 IP를 입력해 접속
+  15. 최초 로그인 ID 및 PW 설정 (IP: pi, PW: raspberri)
   PuTTY : 윈도우에서 ssh연결을 쉽게 하도록 도와주는 프로그램
   공유기가 연결된 노트북과 라즈베리 파이에 IP주소를 할당하므로, 라즈베리파이와 컴퓨터가 같은 공유기의 인터넷 주소를 가지고 있어야 함
   라즈베리 홈페이지에서 balena etcher를 설치해서 SD 카드에 라즈베리파이 OS 설치
