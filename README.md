@@ -123,9 +123,9 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
    -->
  23. VNC viewer -> Raspberri 아이콘
  24. Camera Enable
-     ```conf
-     Preferences > Raspberri Pi Configuration > interfaces
-     ```
+ ```conf
+ Preferences > Raspberri Pi Configuration > interfaces
+ ```
   25. Terminal을 켠 후 카메라 장착 확인
   ```conf
   $ vcgencmd get_camera ---> supported = 1 detected = 1
