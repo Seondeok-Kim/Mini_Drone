@@ -155,12 +155,6 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 <img width="600" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
 <br><br>
-<img width="1400" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/aad7d638-db43-41b3-bc76-563aab6a57eb" />
-
-
-
-
-
-
+<img width="1000" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/24971796-90cd-4bca-aa9d-7cc614419eee" />
 
 
