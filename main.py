@@ -169,7 +169,7 @@ def main():
             m_blue = mask_inrange(hsv, HSV_BLUE_L, HSV_BLUE_U, blur_ksize=17)
             blue_bbox = bbox_center_from_mask(m_blue, min_pixels=400)
 
-            # 링이 안 보륙
+            # 링이 안 보일 경우
                 if pur_bbox is not None:
                     mark_ok_cnt += 1
                     if mark_ok_cnt >= 2 or level >= 3:
