@@ -3,7 +3,7 @@
 https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
 -->
 # 드론
-<img width="700" height="500" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
+<img width="500" height="300" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
 <img width="600" height="800" alt="드론" src="https://github.com/user-attachments/assets/f3736eaf-a411-43ec-8c2f-78d684dcbcfb" />
 
 - 모델명: 코드론 DIY
@@ -155,6 +155,6 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 <img width="600" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
 <br><br>
-<img width="1000" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/24971796-90cd-4bca-aa9d-7cc614419eee" />
+<img width="800" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/24971796-90cd-4bca-aa9d-7cc614419eee" />
 
 
