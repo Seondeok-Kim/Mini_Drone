@@ -4,7 +4,9 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 -->
 # 드론
 <img width="500" height="300" alt="드론2" src="https://github.com/user-attachments/assets/029de597-e55e-49f7-8d34-b61ba6f78355" />
-<img width="600" height="800" alt="드론" src="https://github.com/user-attachments/assets/f3736eaf-a411-43ec-8c2f-78d684dcbcfb" />
+<img width="600" height="600" alt="드론" src="https://github.com/user-attachments/assets/c31b2793-6abc-4de4-87a1-39afa682adac" />
+
+
 
 - 모델명: 코드론 DIY
 
