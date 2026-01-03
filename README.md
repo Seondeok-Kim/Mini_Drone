@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye
 <!--
 ![3](https://user-images.githubusercontent.com/76850241/194636345-5931b677-5547-47f3-bf41-9ee8ea09fad3.PNG)
 -->
-<img width="600" height="600" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
+<img width="400" height="400" alt="Raspberri Pi Zero W" src="https://github.com/user-attachments/assets/cc616ff6-5b95-4a75-b4b9-1bb21f41a418" />
 
 - 1GHz single-core CPU
 - 512MB RAM
@@ -155,8 +155,8 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 
 # 대회 환경
 
-<img width="600" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
+<img width="400" height="400" alt="대회맵" src="https://github.com/user-attachments/assets/b63bec0b-3151-486d-b47b-35f0c19fc804" />
 <br><br>
-<img width="800" height="600" alt="대회맵" src="https://github.com/user-attachments/assets/c22f80d7-9d92-4e5e-aa0d-ac57b7447447" />
+<img width="400" height="400" alt="대회맵" src="https://github.com/user-attachments/assets/c22f80d7-9d92-4e5e-aa0d-ac57b7447447" />
 
 
